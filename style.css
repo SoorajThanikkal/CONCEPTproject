@@ -1,0 +1,109 @@
+body {
+  --bs-body-font-family: var(--bs-font-monospace);
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: var(--bs-gray-100);
+  background-color: rgb(185, 231, 250);
+}
+.main{
+  background-color: rgb(185, 231, 250);
+}
+.logo {
+  max-width: 100px;
+  margin-top: 10px;
+  border-radius: 100px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.top-name a{
+  text-decoration: none;
+  color: black;
+  
+}
+.index{
+  background-color: rgb(185, 231, 250);
+
+}
+ul {
+  list-style-type: armenian;
+  background-color: rgb(185, 231, 250);
+  overflow: hidden;
+  max-height: 100%;
+  padding: 30px;
+  margin: auto;
+  padding-top: 55px;
+}
+li {
+  display: inline-block;
+  padding: 14px 16px 20px;
+}
+li a {
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  text-decoration: solid;
+  color: black;
+  padding-left: 75px;
+}
+li a:hover {
+  color: white;
+}
+.banner {
+  margin-bottom: 120px;
+  width: 100%;
+  height: 550px;
+  display: block;
+  padding-top: 70px;
+ 
+}
+.image-text {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 170px;
+  bottom: 120px;
+  top: 350px; 
+  left: 20px;
+  right: 20px;
+  font-size: 20px; 
+  color: rgb(14, 10, 10);
+ 
+}
+.container {
+  display: flex;
+  align-items: center; 
+  padding-bottom: 25px;
+  padding-top: 35px;
+}
+.vision {
+ max-width: 30%;
+ border-radius: 50%;
+
+}
+.vision-text{
+  margin-left: 20px;
+  text-size-adjust: 25px;
+  text-emphasis-style: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.why_us-container {
+  display: flex;
+  flex-direction: row-reverse; /* Reverses the order of elements, placing the image on the right */
+  align-items: center; /* Centers vertically within the container */
+}
+
+.why-choose-text {
+  flex: 1; /* Allows the text to expand and take up available space */
+  padding: 20px; /* Adjust padding as needed for spacing */
+  font-family:Arial, Helvetica, sans-serif;
+  margin-right: 150px;
+}
+
+.why_choose_us {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain the image's aspect ratio */
+  margin-left: 20px; 
+  margin-right: 210px;/* Add margin to separate the image from the text */
+  border-radius: 40px;
+
+
+
+}
